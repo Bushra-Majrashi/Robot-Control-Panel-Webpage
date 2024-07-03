@@ -6,7 +6,7 @@
         body {
             background-color: #09000c;
             font-family: Arial, sans-serif;
-            color: white; /* Set body text color to white */
+            color: white; 
         }
         table {
             width: 50%;
@@ -18,7 +18,7 @@
             padding: 10px;
             text-align: left;
             border-bottom: 1px solid #ddd;
-            color: white; /* Set table cell text color to white */
+            color: white; 
         }
         th {
             background-color: rgb(17, 90, 30);
@@ -28,7 +28,7 @@
         }
         .center {
             text-align: center;
-            color: white; /* Set center class text color to white */
+            color: white; 
         }
     </style>
 </head>
@@ -46,12 +46,10 @@
         // database name => training
         $conn = mysqli_connect("localhost", "root", "", "training");
         
-        // Check connection
         if ($conn === false) {
             die("ERROR: Could not connect. " . mysqli_connect_error());
         }
         
-        // Fetch the latest record from the table1
         $sql = "SELECT * FROM table1 ORDER BY id DESC LIMIT 1";
         $result = mysqli_query($conn, $sql);
         
@@ -69,7 +67,6 @@
             echo "<tr><td colspan='2' class='center'>ERROR: Could not execute $sql. " . mysqli_error($conn) . "</td></tr>";
         }
         
-        // Close connection
         mysqli_close($conn);
         ?>
     </table>
