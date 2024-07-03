@@ -12,12 +12,10 @@
         // database name => training
         $conn = mysqli_connect("localhost", "root", "", "training");
         
-        // Check connection
         if ($conn === false) {
             die("ERROR: Could not connect. " . mysqli_connect_error());
         }
         
-        // Taking the value from the form data (input)
         $name = $_REQUEST['btn'];
         
         
@@ -29,7 +27,6 @@
             echo "ERROR: Hush! Sorry $sql. " . mysqli_error($conn);
         }
         
-        // Close connection
         mysqli_close($conn);
         ?>
     </center>
