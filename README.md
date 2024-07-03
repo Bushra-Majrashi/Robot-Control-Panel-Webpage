@@ -22,4 +22,12 @@ PHP 7.2 or later and MySQL database server.
 - The control panel has buttons for forward, left, right, backward, and stop movements.
 - Clicking a button sends the associated movement command to the robot (implementation details depend on your specific robot communication method).
 - The movement data (direction) is kept in the database table table1.
-The "View Movements" link displays the most recent movement record.
+- The "View Latest Movements" page displays the most recent movement record.
+
+### Control Panel Page
+  <img width="1440" alt="Screenshot 2024-07-04 at 1 07 23 AM" src="https://github.com/Bushra-Majrashi/Robot-Control-Panel-Webpage/assets/121359904/97a746b6-56b2-4b8f-8e47-768832ad3955">
+
+ ### View Latest Movements Page
+<img width="1440" alt="Screenshot 2024-07-04 at 1 11 17 AM" src="https://github.com/Bushra-Majrashi/Robot-Control-Panel-Webpage/assets/121359904/2bc14831-1ab8-4640-805d-7ca84ad7a836">
+
+
