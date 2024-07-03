@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #09000c;
+}
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary {
+    background-color: #2eb022;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(17, 90, 30);
+  }
+  
+  /* Secondary Button */
+  .btn-secondary {
+    background-color: #2eb022;
+    color: white;
+    margin: 0 10px; /* Adjust spacing between secondary buttons */
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgb(17, 90, 30);
+  }
+
+  .btn-stop {
+    background-color: red; /* Set the background color to red */
+  }
+
+  .btn-stop:hover  {
+    background-color: rgb(127, 4, 4); /* Set the background color to red */
+  }
+
+
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  /* Rows of buttons */
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust spacing between rows */
+  }
+
+
+  
+  
